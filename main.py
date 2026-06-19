@@ -2,7 +2,6 @@ from telebot import types
 from bot import bot
 import logic
 
-# Инициализируем базу данных при старте скрипта
 logic.init_db()
 
 @bot.message_handler(commands=['start'])
